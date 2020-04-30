@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <title>dice challenge</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="jumbotron">
+        <div class="container">
+            <h2 class="text-center display-4">Dice Game</h2>
+            <p class="text-muted float-right pr-5 mr-5">Refresh the page, to spin the dice</p>
+        </div>
+    </div>
+    <div class="container text-center">
+        <div class="dice-result">
+            <span class="winning-result"></span>
+            <span id="winning-result-info">Player Won..</span>
+            </p>
+        </div>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col">
+                <h5>1st Player</h5>
+                <img src="images/6.png" width="100px" height="100px" class="dice-image1" alt="dice-image1">
+                <p class="dice-count1"></p>
+            </div>
+            <div class="col"></div>
+            <div class="col">
+                <h5>2nd Player</h5>
+                <img src="images/6.png" width="100px" height="100px" class="dice-image2" alt="dice-image2">
+                <p class="dice-count2"></p>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+    <script src="script.js" charset="utf-8"></script>
+</body>
+
+</html>

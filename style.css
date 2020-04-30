@@ -1,0 +1,7 @@
+.winning-result, .dice-count1, .dice-count2 {
+    font-size: 30px;
+}
+
+.winning-result-info {
+    display: none;
+}
